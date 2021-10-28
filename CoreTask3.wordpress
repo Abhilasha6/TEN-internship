@@ -17,6 +17,6 @@ function register_activation_hook( $file, $callback ) {
 }
 ------------------OR-----------------
 Click on Navigation Menu-> Plugins-> Add New
-Select the plugin you want to install, I have installed BuddyPress
+Select the plugin you want to install, I have installed BuddyPress plugin.
 After the installation gets complete click on Activate.
 The plugin will get activated.
