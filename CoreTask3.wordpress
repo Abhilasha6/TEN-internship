@@ -1,0 +1,15 @@
+/**Set the activation hook for a plugin.
+When a plugin is activated, the action 'activate_PLUGINNAME' hook is called.
+*/
+
+function register_activation_hook( $file, $callback ) {
+
+    $file = plugin_basename( $file );
+    add_action( 'activate_' . $file, $callback );
+
+}
+------------------OR-----------------
+Click on Navigation Menu-> Plugins-> Add New
+Select the plugin you want to install, I have installed BuddyPress
+After the installation gets complete click on Activate.
+The plugin will get activated.
