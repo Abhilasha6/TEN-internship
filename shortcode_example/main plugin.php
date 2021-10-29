@@ -20,4 +20,8 @@ First name:<br>
 </form>
 <?php
 
+  // now after the plugin is activated go to the Wordpress page, click on Pages-> Add New
+  //enter the title as "Shortcode plugin"  
+  // in the block area enter a paragraph by clicking the + icon on the right side just below title tag, enter [wordpress_contact_form]
+  // now click on Publish (on the top right corner part)
 }
