@@ -10,7 +10,7 @@ class Clock_Widget extends WP_Widget{
             array( 'description' => __( 'A Clock Widget', 'Widget Plugin' ), ) // Args
         );
     }
- 
+
     add_action( 'widgets_init', 'register_clock_widget' );
     function register_clock_widget() { 
         register_widget( 'Clock_Widget' ); 
